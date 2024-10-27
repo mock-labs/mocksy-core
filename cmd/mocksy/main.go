@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/mock-labs/mocksy-core/internal/cli/root"
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	root.Execute()
 }
